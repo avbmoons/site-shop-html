@@ -1,327 +1,437 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product_page</title>
-    <link rel="stylesheet" href="../styles/style-product.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="font-awesome/sccs/font-awesome.css">
-    <script src="https://kit.fontawesome.com/f23870e2ae.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
+    <link rel="stylesheet" href="../styles/style-product.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="font-awesome/sccs/font-awesome.css" />
+    <script
+      src="https://kit.fontawesome.com/f23870e2ae.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="wrapper">
-        <div class="top">
-            <header>
-                <div class="header">
-                    <nav>
-                        <div class="menu">
-                            <div class="menu-box">
-                                <div class="mb-left">
-
-                                    <a class="logo" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-
-                                    <div class="search-box">
-                                        <a class="search" href="#"><img src="../img/icon-search.png" alt="search"></a>
-                                        <div class="search-content">
-                                            <input class="search-text" type="search"
-                                                placeholder="Enter your searching...">
-                                            <input class="search-submit" type="submit" value="Search">
-
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <div class="mb-right">
-                                    <div class="burger-box">
-                                        <a class="burger" href="#"><img src="../img/icon-menu-burger.svg" alt="menu"></a>
-                                        <div class="burger-content">
-                                            <button class="close-button"><img src="../img/icon-close.svg" alt="X"></button>
-                                            <h3 class="bc-heading">MENU</h3>
-                                            <ul class="bc-section">MAN
-                                                <li>
-                                                    <ul class="bc-section-rows">
-                                                        <li><a class="bc-row" href="#">Accessories</a></li>
-                                                        <li><a class="bc-row" href="#">Bags</a></li>
-                                                        <li><a class="bc-row" href="#">Denim</a></li>
-                                                        <li><a class="bc-row" href="#">T-Shirts</a></li>
-                                                    </ul>
-                                                </li>
-
-
-                                            </ul>
-                                            <ul class="bc-section">WOMAN
-                                                <li>
-                                                    <ul class="bc-section-rows">
-                                                        <li><a class="bc-row" href="#">Accessories</a></li>
-                                                        <li><a class="bc-row" href="#">Jackets & Coats</a></li>
-                                                        <li><a class="bc-row" href="#">Polos</a></li>
-                                                        <li><a class="bc-row" href="#">T-Shirts</a></li>
-                                                        <li><a class="bc-row" href="#">Shirts</a></li>
-                                                    </ul>
-                                                </li>
-
-
-                                            </ul>
-                                            <ul class="bc-section">KIDS
-                                                <li>
-                                                    <ul class="bc-section-rows">
-                                                        <li><a class="bc-row" href="#">Accessories</a></li>
-                                                        <li><a class="bc-row" href="#">Jackets & Coats</a></li>
-                                                        <li><a class="bc-row" href="#">Polos</a></li>
-                                                        <li><a class="bc-row" href="#">T-Shirts</a></li>
-                                                        <li><a class="bc-row" href="#">Shirts</a></li>
-                                                        <li><a class="bc-row" href="#">Bags</a></li>
-                                                    </ul>
-                                                </li>
-
-
-                                            </ul>
-                                        </div>
-
-                                    </div>
-
-
-                                    <a class="user" href="../pages/registration.html"><img src="../img/icon-user.svg"
-                                            alt="user"></a>
-                                    <a class="cart" class="cart" href="../pages/cart.html"><img src="../img/icon-cart.svg"
-                                            alt="cart">
-                                        <input class="num" type="text" readonly value="5" style="text-align:center">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                    <section>
-                        <div class="header-content">
-                            <div class="hc-box">
-                                <div class="hc-left">
-                                    <h3 class="hc-heading">NEW ARRIVALS </h3>
-                                </div>
-                                <div class="hc-right">
-                                    <ul class="hc-path">
-                                        <li class="path-point"><a class="pp-link" href="../index.html">HOME</a></li>
-                                        <li class="path-point">&nbsp&#x2044&nbsp</li>
-                                        <!--пункт ALL PRODUCT добавлен для переходов по страницам-->
-                                        <li class="path-point"><a class="pp-link" href="../pages/catalog.html">ALL PRODUCT</a>
-                                        </li>
-                                        <li class="path-point">&nbsp&#x2044&nbsp</li>
-                                        <li class="path-point"><a class="pp-link" href="#">MEN</a></li>
-                                        <li class="path-point">&nbsp&#x2044&nbsp</li>
-                                        <li class="path-point"><a class="pp-link" href="#">NEW ARRIVALS</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="hc-slide">
-                                <div class="hc-slide-box">
-                                    <img class="hc-slide-img" src="../img/items-img-7-slide.png" alt="photo">
-                                </div>
-                                <div class="hc-slide-button-box">
-                                    <div class="hc-slide-button-left">
-                                        <a class="hc-slide-button-link" href="#">&#8249</a>
-                                    </div>
-                                    <div class="hc-slide-button-right">
-                                        <a class="hc-slide-button-link" href="#">&#8250</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+      <div class="top">
+        <header>
+          <div class="header">
+            <nav>
+              <div class="menu">
+                <div class="menu-box">
+                  <div class="mb-left">
+                    <a class="logo" href="../index.html"
+                      ><img src="../img/logo.png" alt="logo"
+                    /></a>
+                    <div class="search-box">
+                      <a class="search" href="#"
+                        ><img src="../img/icon-search.png" alt="search"
+                      /></a>
+                      <div class="search-content">
+                        <input
+                          class="search-text"
+                          type="search"
+                          placeholder="Enter your searching..."
+                        />
+                        <input
+                          class="search-submit"
+                          type="submit"
+                          value="Search"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-right">
+                    <div class="burger-box">
+                      <a class="burger" href="#"
+                        ><img src="../img/icon-menu-burger.svg" alt="menu"
+                      /></a>
+                      <div class="burger-content">
+                        <button class="close-button">
+                          <img src="../img/icon-close.svg" alt="X" />
+                        </button>
+                        <h3 class="bc-heading">MENU</h3>
+                        <ul class="bc-section">
+                          MAN
+                          <li>
+                            <ul class="bc-section-rows">
+                              <li>
+                                <a class="bc-row" href="#">Accessories</a>
+                              </li>
+                              <li><a class="bc-row" href="#">Bags</a></li>
+                              <li><a class="bc-row" href="#">Denim</a></li>
+                              <li><a class="bc-row" href="#">T-Shirts</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <ul class="bc-section">
+                          WOMAN
+                          <li>
+                            <ul class="bc-section-rows">
+                              <li>
+                                <a class="bc-row" href="#">Accessories</a>
+                              </li>
+                              <li>
+                                <a class="bc-row" href="#">Jackets & Coats</a>
+                              </li>
+                              <li><a class="bc-row" href="#">Polos</a></li>
+                              <li><a class="bc-row" href="#">T-Shirts</a></li>
+                              <li><a class="bc-row" href="#">Shirts</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <ul class="bc-section">
+                          KIDS
+                          <li>
+                            <ul class="bc-section-rows">
+                              <li>
+                                <a class="bc-row" href="#">Accessories</a>
+                              </li>
+                              <li>
+                                <a class="bc-row" href="#">Jackets & Coats</a>
+                              </li>
+                              <li><a class="bc-row" href="#">Polos</a></li>
+                              <li><a class="bc-row" href="#">T-Shirts</a></li>
+                              <li><a class="bc-row" href="#">Shirts</a></li>
+                              <li><a class="bc-row" href="#">Bags</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="user" href="../pages/registration.html"
+                      ><img src="../img/icon-user.svg" alt="user"
+                    /></a>
+                    <a class="cart" class="cart" href="../pages/cart.html"
+                      ><img src="../img/icon-cart.svg" alt="cart" />
+                      <input
+                        class="num"
+                        type="text"
+                        readonly
+                        value="5"
+                        style="text-align: center"
+                      />
+                    </a>
+                  </div>
                 </div>
-            </header>
-            <main>
-                <div class="main-box">
-                    <section>
-                        <div class="item-blank">
-
-                            <div class="ib-top">
-                                <div class="ibt-box">
-                                    <a class="ibt-link" href="#">WOMEN COLLECTION</a>
-                                    <hr class="ibt-line-top">
-
-                                    <h3 class="ibt-heading">MOSCHINO CHEAP AND CHIC</h3>
-                                    <p class="ibt-parag">Compellingly actualize fully researched processes before
-                                        proactive outsourcing. Progressively syndicate collaborative architectures
-                                        before cutting-edge services. Completely visualize parallel core competencies
-                                        rather than exceptional portals. </p>
-                                    <p class="ibt-price">$561</p>
-                                    <hr class="ibt-line-bottom">
-                                </div>
-                            </div>
-                            <div class="ib-bottom">
-                                <div class="ibb-box">
-                                    <div class="filter-list">
-                                        <ul class="fl-items">
-                                            <li class="fl-point"><a class="fl-link" href="#">CHOOSE COLOR</a></li>
-                                            <li class="fl-point"><button class="fl-button"><img
-                                                        src="../img/icon-drop-down.svg" alt="dropdown"></button></li>
-                                            <li class="fl-point"><a class="fl-link" href="#">CHOOSE SIZE </a></li>
-                                            <li class="fl-point"><button class="fl-button"><img
-                                                        src="../img/icon-drop-down.svg" alt="dropdown"></button></li>
-                                            <li class="fl-point"><a class="fl-link" href="#">QUANTITY</a></li>
-                                            <li class="fl-point"><button class="fl-button"><img
-                                                        src="../img/icon-drop-down.svg" alt="dropdown"></button></li>
-                                        </ul>
-                                    </div>
-                                    <div class="pb-button-box">
-                                        <div class="pb-button">
-                                            <div class="pbbb-box">
-                                                <img class="pb-button-img" src="../img/icon-cart-red.svg" alt="cart">
-
-                                                <a class="pb-button-link" href="../pages/cart.html">Add to Cart</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                </div>
-
-            </main>
+              </div>
+            </nav>
             <section>
-                <div class="catalog">
-                    <div class="pb-items">
-                        <div class="item">
-                            <div class="item-img">
-                                <img class="item-img__img" src="../img/items-img-4.png" alt="photo">
-                                <div class="overlay"></div>
-                                <div class="item-cart-button">
-                                    <img class="item-cart-icon" src="../img/icon-cart.svg" alt="cart">
-                                    <a class="item-cart-link" href="#">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="item-content">
-                                <h4 class="h-4"><a class="h-4-link" href="../pages/product.html">ELLERY X M'O CAPSULE</a>
-                                </h4>
-                                <p class="h-4-parag">Known for her sculptural takes on traditional tailoring,
-                                    Australian
-                                    arbiter of cool Kym
-                                    Ellery teams up with Moda Operandi.</p>
-                            </div>
-                            <div class="item-price">
-                                <p class="price-text">$52.00</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-img">
-                                <img class="item-img__img" src="../img/items-img-3.png" alt="photo">
-                                <div class="overlay"></div>
-                                <div class="item-cart-button">
-                                    <img class="item-cart-icon" src="../img/icon-cart.svg" alt="cart">
-                                    <a class="item-cart-link" href="#">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="item-content">
-                                <h4 class="h-4"><a class="h-4-link" href="../pages/product.html">ELLERY X M'O CAPSULE</a>
-                                </h4>
-                                <p class="h-4-parag">Known for her sculptural takes on traditional tailoring,
-                                    Australian
-                                    arbiter of cool Kym
-                                    Ellery teams up with Moda Operandi.</p>
-                            </div>
-                            <div class="item-price">
-                                <p class="price-text">$52.00</p>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="item-img">
-                                <img class="item-img__img" src="../img/items-img-6.png" alt="photo">
-                                <div class="overlay"></div>
-                                <div class="item-cart-button">
-                                    <img class="item-cart-icon" src="../img/icon-cart.svg" alt="cart">
-                                    <a class="item-cart-link" href="#">Add to cart</a>
-                                </div>
-                            </div>
-                            <div class="item-content">
-                                <h4 class="h-4"><a class="h-4-link" href="../pages/product.html">ELLERY X M'O CAPSULE</a>
-                                </h4>
-                                <p class="h-4-parag">Known for her sculptural takes on traditional tailoring,
-                                    Australian
-                                    arbiter of cool Kym
-                                    Ellery teams up with Moda Operandi.</p>
-                            </div>
-                            <div class="item-price">
-                                <p class="price-text">$52.00</p>
-                            </div>
-                        </div>
-                    </div>
+              <div class="header-content">
+                <div class="hc-box">
+                  <div class="hc-left">
+                    <h3 class="hc-heading">NEW ARRIVALS</h3>
+                  </div>
+                  <div class="hc-right">
+                    <ul class="hc-path">
+                      <li class="path-point">
+                        <a class="pp-link" href="../index.html">HOME</a>
+                      </li>
+                      <li class="path-point">&nbsp;&#x2044;&nbsp;</li>
+                      <li class="path-point">
+                        <a class="pp-link" href="../pages/catalog.html"
+                          >ALL PRODUCT</a
+                        >
+                      </li>
+                      <li class="path-point">&nbsp;&#x2044;&nbsp;</li>
+                      <li class="path-point">
+                        <a class="pp-link" href="#">MEN</a>
+                      </li>
+                      <li class="path-point">&nbsp;&#x2044;&nbsp;</li>
+                      <li class="path-point">
+                        <a class="pp-link" href="#">NEW ARRIVALS</a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+                <div class="hc-slide">
+                  <div class="hc-slide-box">
+                    <img
+                      class="hc-slide-img"
+                      src="../img/items-img-7-slide.png"
+                      alt="photo"
+                    />
+                  </div>
+                  <div class="hc-slide-button-box">
+                    <div class="hc-slide-button-left">
+                      <a class="hc-slide-button-link" href="#">&#8249;</a>
+                    </div>
+                    <div class="hc-slide-button-right">
+                      <a class="hc-slide-button-link" href="#">&#8250;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </section>
-
-        </div>
-        <footer>
-            <div class="footer">
-                <section>
-                </section>
-                <section>
-                    <div class="subscribe">
-                        <div class="subscribe-box">
-                            <div class="sb-left">
-                                <div class="sb-img">
-                                    <div class="sb-photo">
-                                        <img src="../img/footer-photo-1.png" alt="photo">
-                                    </div>
-                                </div>
-                                <div class="sb-parag">
-                                    <p class="sb-parag-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
-                                        pulvinar purus condimentum“</p>
-                                </div>
-                            </div>
-                            <div class="sb-right">
-                                <div class="sb-text">
-                                    <h3 class="sb-h-3">SUBSCRIBE</h3>
-                                    <h4 class="sb-h-4">FOR OUR NEWLETTER AND PROMOTION</h4>
-                                </div>
-                                <form action="#">
-                                    <div class="sb-submit">
-                                        <input class="sb-mail" type="email" placeholder="Enter Your Email">
-                                        <input class="sb-button" type="submit" value="Subscribe">
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+          </div>
+        </header>
+        <main>
+          <div class="main-box">
+            <section>
+              <div class="item-blank">
+                <div class="ib-top">
+                  <div class="ibt-box">
+                    <a class="ibt-link" href="#">WOMEN COLLECTION</a>
+                    <hr class="ibt-line-top" />
+                    <h3 class="ibt-heading">MOSCHINO CHEAP AND CHIC</h3>
+                    <p class="ibt-parag">
+                      Compellingly actualize fully researched processes before
+                      proactive outsourcing. Progressively syndicate
+                      collaborative architectures before cutting-edge services.
+                      Completely visualize parallel core competencies rather
+                      than exceptional portals.
+                    </p>
+                    <p class="ibt-price">$561</p>
+                    <hr class="ibt-line-bottom" />
+                  </div>
+                </div>
+                <div class="ib-bottom">
+                  <div class="ibb-box">
+                    <div class="filter-list">
+                      <ul class="fl-items">
+                        <li class="fl-point">
+                          <a class="fl-link" href="#">CHOOSE COLOR</a>
+                        </li>
+                        <li class="fl-point">
+                          <button class="fl-button">
+                            <img
+                              src="../img/icon-drop-down.svg"
+                              alt="dropdown"
+                            />
+                          </button>
+                        </li>
+                        <li class="fl-point">
+                          <a class="fl-link" href="#">CHOOSE SIZE </a>
+                        </li>
+                        <li class="fl-point">
+                          <button class="fl-button">
+                            <img
+                              src="../img/icon-drop-down.svg"
+                              alt="dropdown"
+                            />
+                          </button>
+                        </li>
+                        <li class="fl-point">
+                          <a class="fl-link" href="#">QUANTITY</a>
+                        </li>
+                        <li class="fl-point">
+                          <button class="fl-button">
+                            <img
+                              src="../img/icon-drop-down.svg"
+                              alt="dropdown"
+                            />
+                          </button>
+                        </li>
+                      </ul>
                     </div>
-                </section>
-                <section>
-                    <div class="copyright">
-                        <div class="copyright-box">
-                            <div class="allrights">
-                                <p>© 2021 Brand All Rights Reserved.</p>
-                            </div>
-                            <div class="socials">
-                                <div class="sc-link">
-                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true" fa-2x></i></a>
-                                </div>
-                                <div class="sc-link">
-                                    <a href="#"><i class="fa fa-instagram" aria-hidden="true" fa-3x></i>
-                                    </a>
-                                </div>
-                                <div class="sc-link">
-                                    <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                                <div class="sc-link">
-                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
-                                        </i>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="pb-button-box">
+                      <div class="pb-button">
+                        <div class="pbbb-box">
+                          <img
+                            class="pb-button-img"
+                            src="../img/icon-cart-red.svg"
+                            alt="cart"
+                          />
+                          <a class="pb-button-link" href="../pages/cart.html"
+                            >Add to Cart</a
+                          >
                         </div>
-
+                      </div>
                     </div>
-                </section>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </main>
+        <section>
+          <div class="catalog">
+            <div class="pb-items">
+              <div class="item">
+                <div class="item-img">
+                  <img
+                    class="item-img__img"
+                    src="../img/items-img-4.png"
+                    alt="photo"
+                  />
+                  <div class="overlay"></div>
+                  <div class="item-cart-button">
+                    <img
+                      class="item-cart-icon"
+                      src="../img/icon-cart.svg"
+                      alt="cart"
+                    />
+                    <a class="item-cart-link" href="#">Add to cart</a>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h4 class="h-4">
+                    <a class="h-4-link" href="../pages/product.html"
+                      >ELLERY X M'O CAPSULE</a
+                    >
+                  </h4>
+                  <p class="h-4-parag">
+                    Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda
+                    Operandi.
+                  </p>
+                </div>
+                <div class="item-price">
+                  <p class="price-text">$52.00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-img">
+                  <img
+                    class="item-img__img"
+                    src="../img/items-img-3.png"
+                    alt="photo"
+                  />
+                  <div class="overlay"></div>
+                  <div class="item-cart-button">
+                    <img
+                      class="item-cart-icon"
+                      src="../img/icon-cart.svg"
+                      alt="cart"
+                    />
+                    <a class="item-cart-link" href="#">Add to cart</a>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h4 class="h-4">
+                    <a class="h-4-link" href="../pages/product.html"
+                      >ELLERY X M'O CAPSULE</a
+                    >
+                  </h4>
+                  <p class="h-4-parag">
+                    Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda
+                    Operandi.
+                  </p>
+                </div>
+                <div class="item-price">
+                  <p class="price-text">$52.00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="item-img">
+                  <img
+                    class="item-img__img"
+                    src="../img/items-img-6.png"
+                    alt="photo"
+                  />
+                  <div class="overlay"></div>
+                  <div class="item-cart-button">
+                    <img
+                      class="item-cart-icon"
+                      src="../img/icon-cart.svg"
+                      alt="cart"
+                    />
+                    <a class="item-cart-link" href="#">Add to cart</a>
+                  </div>
+                </div>
+                <div class="item-content">
+                  <h4 class="h-4">
+                    <a class="h-4-link" href="../pages/product.html"
+                      >ELLERY X M'O CAPSULE</a
+                    >
+                  </h4>
+                  <p class="h-4-parag">
+                    Known for her sculptural takes on traditional tailoring,
+                    Australian arbiter of cool Kym Ellery teams up with Moda
+                    Operandi.
+                  </p>
+                </div>
+                <div class="item-price">
+                  <p class="price-text">$52.00</p>
+                </div>
+              </div>
             </div>
-        </footer>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="footer">
+          <section></section>
+          <section>
+            <div class="subscribe">
+              <div class="subscribe-box">
+                <div class="sb-left">
+                  <div class="sb-img">
+                    <div class="sb-photo">
+                      <img src="../img/footer-photo-1.png" alt="photo" />
+                    </div>
+                  </div>
+                  <div class="sb-parag">
+                    <p class="sb-parag-text">
+                      “Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                      pulvinar purus condimentum“
+                    </p>
+                  </div>
+                </div>
+                <div class="sb-right">
+                  <div class="sb-text">
+                    <h3 class="sb-h-3">SUBSCRIBE</h3>
+                    <h4 class="sb-h-4">FOR OUR NEWLETTER AND PROMOTION</h4>
+                  </div>
+                  <form action="#">
+                    <div class="sb-submit">
+                      <input
+                        class="sb-mail"
+                        type="email"
+                        placeholder="Enter Your Email"
+                      />
+                      <input
+                        class="sb-button"
+                        type="submit"
+                        value="Subscribe"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="copyright">
+              <div class="copyright-box">
+                <div class="allrights">
+                  <p>© 2021 Brand All Rights Reserved.</p>
+                </div>
+                <div class="socials">
+                  <div class="sc-link">
+                    <a href="#"
+                      ><i class="fa fa-facebook" aria-hidden="true" fa-2x></i
+                    ></a>
+                  </div>
+                  <div class="sc-link">
+                    <a href="#"
+                      ><i class="fa fa-instagram" aria-hidden="true" fa-3x></i>
+                    </a>
+                  </div>
+                  <div class="sc-link">
+                    <a href="#"
+                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                  <div class="sc-link">
+                    <a href="#"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </footer>
     </div>
-
-</body>
-
+  </body>
 </html>
