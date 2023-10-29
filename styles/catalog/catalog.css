@@ -735,7 +735,7 @@ body {
   margin: 0 auto;
   width: 100%;
   min-height: 448px;
-  background-image: url(../img/footer-back.png);
+  background-image: url(../../assets/images/backgrounds/footer-back.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -940,4 +940,4 @@ body {
   background-color: #f16d7f;
 }
 
-/*назначение - wrapper*//*# sourceMappingURL=style-catalog.css.map */
+/*назначение - wrapper*//*# sourceMappingURL=catalog.css.map */

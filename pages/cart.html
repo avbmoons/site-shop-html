@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart_page</title>
-    <link rel="stylesheet" href="../styles/style-cart.css" />
+    <link rel="stylesheet" href="../styles/cart/cart.css" />
+    <!-- <link rel="stylesheet" href="../styles/style-cart.css" /> -->
+    <link rel="stylesheet" href="../styles/cart/cart.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,12 +26,12 @@
               <div class="menu">
                 <div class="menu-box">
                   <div class="mb-left">
-                    <a class="logo" href="../index.html" target="blank"
-                      ><img src="../img/logo.png" alt="logo"
+                    <a class="logo" href="../index.html" target="_blank"
+                      ><img src="../assets/logo/logo.png" alt="logo"
                     /></a>
                     <div class="search-box">
                       <a class="search" href="#"
-                        ><img src="../img/icon-search.png" alt="search"
+                        ><img src="../assets/icons/search.png" alt="search"
                       /></a>
                       <div class="search-content">
                         <input
@@ -48,11 +50,11 @@
                   <div class="mb-right">
                     <div class="burger-box">
                       <a class="burger" href="#"
-                        ><img src="../img/icon-menu-burger.svg" alt="menu"
+                        ><img src="../assets/icons/menu-burger.svg" alt="menu"
                       /></a>
                       <div class="burger-content">
                         <button class="close-button">
-                          <img src="../img/icon-close.svg" alt="X" />
+                          <img src="../assets/icons/close.svg" alt="X" />
                         </button>
                         <h3 class="bc-heading">MENU</h3>
                         <ul class="bc-section">
@@ -103,11 +105,14 @@
                         </ul>
                       </div>
                     </div>
-                    <a class="user" href="../pages/registration.html"
-                      ><img src="../img/icon-user.svg" alt="user"
+                    <a
+                      class="user"
+                      href="../pages/registration.html"
+                      target="_blank"
+                      ><img src="../assets/icons/user.svg" alt="user"
                     /></a>
                     <a class="cart" class="cart" href="../pages/cart.html"
-                      ><img src="../img/icon-cart.svg" alt="cart" />
+                      ><img src="../assets/icons/cart.svg" alt="cart" />
                       <input
                         class="num"
                         type="text"
@@ -138,10 +143,10 @@
                 <div class="cart">
                   <div class="cart-left">
                     <div class="cart-left-block">
-                      <a href="../pages/product.html">
+                      <a href="../pages/product.html" target="_blank">
                         <img
                           class="cart-item-img"
-                          src="../img/items-img-3.png"
+                          src="../assets/images/products/item-3.png"
                           alt="photo"
                         />
                       </a>
@@ -150,11 +155,12 @@
                           <a
                             class="cart-item-text-h-3"
                             href="../pages/product.html"
+                            target="_blank"
                             >MANGO PEOPLE<br />
                             T-SHIRT</a
                           >
                           <button class="close-button">
-                            <img src="../img/icon-close.svg" alt="X" />
+                            <img src="../assets/icons/close.svg" alt="X" />
                           </button>
                         </div>
                         <div class="cart-item-text-data">
@@ -225,9 +231,10 @@
                       </div>
                     </div>
                     <div class="cart-left-block">
-                      <a href="../pages/product.html">
+                      <a href="../pages/product.html" target="_blank">
                         <img
                           class="cart-item-img"
+                          src="../assets/images/products/item-8.png"
                           src="../img/items-img-8.png"
                           alt="photo"
                         />
@@ -237,11 +244,12 @@
                           <a
                             class="cart-item-text-h-3"
                             href="../pages/product.html"
+                            target="_blank"
                             >MANGO PEOPLE<br />
                             T-SHIRT</a
                           >
                           <button class="close-button">
-                            <img src="../img/icon-close.svg" alt="X" />
+                            <img src="../assets/icons/close.svg" alt="X" />
                           </button>
                         </div>
                         <div class="cart-item-text-data">
@@ -394,6 +402,7 @@
                       <a
                         class="cart-general-button"
                         href="../pages/catalog.html"
+                        target="_blank"
                         >CONTINUE SHOPPING</a
                       >
                     </div>
@@ -418,7 +427,10 @@
                 <div class="sb-left">
                   <div class="sb-img">
                     <div class="sb-photo">
-                      <img src="../img/footer-photo-1.png" alt="photo" />
+                      <img
+                        src="../assets/images/photos/footer-photo-1.png"
+                        alt="photo"
+                      />
                     </div>
                   </div>
                   <div class="sb-parag">
@@ -460,22 +472,33 @@
                 <div class="socials">
                   <div class="sc-link">
                     <a href="#"
-                      ><i class="fa fa-facebook" aria-hidden="true" fa-2x></i
-                    ></a>
+                      ><img
+                        class="fa fa-facebook"
+                        src="../assets/icons/facebook.png"
+                    /></a>
                   </div>
                   <div class="sc-link">
                     <a href="#"
-                      ><i class="fa fa-instagram" aria-hidden="true" fa-3x></i>
+                      ><img
+                        class="fa fa-instagram"
+                        src="../assets/icons/instagram.png"
+                      />
                     </a>
                   </div>
                   <div class="sc-link">
                     <a href="#"
-                      ><i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      ><img
+                        class="fa fa-pinterest-p"
+                        src="../assets/icons/pinterest.png"
+                      />
                     </a>
                   </div>
                   <div class="sc-link">
                     <a href="#"
-                      ><i class="fa fa-twitter" aria-hidden="true"></i>
+                      ><img
+                        class="fa fa-twitter"
+                        src="../assets/icons/twitter.png"
+                      />
                     </a>
                   </div>
                 </div>

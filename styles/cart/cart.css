@@ -804,7 +804,7 @@ body {
   margin: 0 auto;
   width: 100%;
   min-height: 448px;
-  background-image: url(../img/footer-back.png);
+  background-image: url(../../assets/images/backgrounds/footer-back.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1006,4 +1006,4 @@ body {
 .wrapper .footer .copyright .copyright-box .socials .sc-link .fa-twitter:hover {
   color: #fff;
   background-color: #f16d7f;
-}/*# sourceMappingURL=style-cart.css.map */
+}/*# sourceMappingURL=cart.css.map */
