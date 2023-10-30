@@ -314,7 +314,7 @@ body {
   width: auto;
   height: 12%;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 @media (max-width: 375px) {
   .wrapper .top .header .slide .slide-box__right__title-box {

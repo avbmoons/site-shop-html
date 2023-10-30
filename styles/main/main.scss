@@ -1,26 +1,7 @@
 @use "sass:math";
 
-$width-site-maket: 1600px;
-$width-box-maket: 1140px;
-$width-site: 100%;
-$width-box: math.div($width-box-maket, $width-site-maket) * $width-site;
-$height-site: 100vh;
-$height-menu: 75px;
-$height-slide: 764px;
-$height-header: 148px;
-$height-main-heading: 132px;
-$color-site: #ffffff;
-$color-menu: #222222;
-$color-slide: #f1e4e6;
-$color-header: #f8f3f4;
-$color-link-active: #f16d7f;
-$color-path: #636363;
-$color-filter: #6f6e6e;
-$cart-size-w: 32px;
-$cart-size-h: 29px;
-$num-size-w: 20px;
-$num-size-h: 20px;
-$num-position-top: ($num-size-h) * 0.5;
+@import "../../assets/vars/sass/vars.scss";
+
 @media (min-width: 376px) and (max-width: 768px) {
   $width-site-maket: 768px;
   $width-box-maket: 768px;
@@ -44,64 +25,6 @@ $num-position-top: ($num-size-h) * 0.5;
   @media (max-width: 375px) {
     @content;
   }
-}
-
-@mixin flex-vertical {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  box-sizing: border-box;
-}
-@mixin flex-horizontal {
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-@mixin head-1 {
-  // max-width: 377px;
-  // height: 50%;
-  font-size: 48px;
-  font-weight: 900;
-  line-height: 58px;
-  color: #222222;
-  @include media-tablet() {
-    font-size: 44px;
-    line-height: 53px;
-  }
-}
-@mixin head-2 {
-  // max-width: 377px;
-  // height: 50%;
-  // padding-top: 8px;
-  font-weight: 700;
-  font-size: 32px;
-  color: #222222;
-  //white-space: nowrap;
-  @include media-tablet() {
-    font-size: 24px;
-    line-height: 29px;
-  }
-}
-@mixin head-3 {
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 36px;
-  color: #222;
-}
-@mixin head-4 {
-  margin-left: 17px;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #000000;
-  padding-top: 24px;
-}
-@mixin parag {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 17px;
-  color: #9f9f9f;
 }
 
 * {
@@ -137,7 +60,6 @@ body {
           height: $height-menu;
           background-color: #222;
           @include flex-horizontal();
-          //display: flex;
           justify-content: space-between;
           @include media-mobile() {
             width: $width-site;
@@ -148,7 +70,6 @@ body {
             width: 50%;
             background-color: #222;
             @include flex-horizontal();
-            //display: flex;
             justify-content: flex-start;
             &__logo {
               border: 1px;
@@ -161,7 +82,6 @@ body {
               padding-left: 21px;
               padding-top: 10px;
               @include flex-horizontal();
-              //display: flex;
               justify-content: space-between;
               &__icon {
                 margin: 0 auto;
@@ -371,7 +291,7 @@ body {
               width: auto;
               height: 12%;
               display: flex;
-              justify-content: start;
+              justify-content: flex-start;
               @include media-mobile() {
                 justify-content: center;
               }
@@ -642,10 +562,6 @@ body {
                   margin-left: 17px;
                   padding-top: 24px;
                   @include head-4();
-                  // font-size: 13px;
-                  // font-weight: 400;
-                  // line-height: 16px;
-                  // color: #000000;
                   &__link {
                     text-decoration: none;
                     color: #000000;
@@ -734,7 +650,6 @@ body {
           align-items: center;
           &__img {
             margin: 0 auto;
-            //padding-top: 103px;
             align-self: center;
             @include media-tablet() {
               padding-top: 48px;

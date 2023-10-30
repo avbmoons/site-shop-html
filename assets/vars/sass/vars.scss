@@ -1,0 +1,106 @@
+@use "sass:math";
+
+$width-site-maket: 1600px;
+$width-box-maket: 1140px;
+$width-site: 100%;
+$width-box: math.div($width-box-maket, $width-site-maket) * $width-site;
+$height-site: 100vh;
+$height-menu: 75px;
+$height-slide: 764px;
+$height-header: 148px;
+$height-main-heading: 132px;
+$color-site: #ffffff;
+$color-menu: #222222;
+$color-slide: #f1e4e6;
+$color-header: #f8f3f4;
+$color-link-active: #f16d7f;
+$color-other-accent: #ef5b70;
+$color-path: #636363;
+$color-filter: #6f6e6e;
+$cart-size-w: 32px;
+$cart-size-h: 29px;
+$num-size-w: 20px;
+$num-size-h: 20px;
+$num-position-top: ($num-size-h) * 0.5;
+$item-blank-h: 600px;
+$item-blank-top-h: ($item-blank-h) * 60%;
+$item-blank-bottom-h: ($item-blank-h) * 40%;
+
+///////////////////////////
+@media (min-width: 376px) and (max-width: 768px) {
+  $width-site-maket: 768px;
+  $width-box-maket: 768px;
+  $width-site: 100%;
+  $height-menu: 74px;
+  $height-slide: 368px;
+}
+@media (max-width: 375px) {
+  $width-site-maket: 375px;
+  $width-box-maket: 375px;
+  $width-site: 100%;
+  $height-menu: 74px;
+  $height-slide: 363px;
+}
+@mixin media-tablet {
+  @media (min-width: 375px) and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin media-mobile {
+  @media (max-width: 375px) {
+    @content;
+  }
+}
+////////////////////
+
+@mixin flex-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+}
+@mixin flex-horizontal {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+@mixin head-1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  color: #222222;
+  @include media-tablet() {
+    font-size: 44px;
+    line-height: 53px;
+  }
+}
+@mixin head-2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #222222;
+  @include media-tablet() {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+@mixin head-3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #222;
+}
+@mixin head-4 {
+  margin-left: 17px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+  padding-top: 24px;
+}
+@mixin parag {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #9f9f9f;
+}
