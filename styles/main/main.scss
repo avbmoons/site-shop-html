@@ -2,31 +2,6 @@
 
 @import "../../assets/vars/sass/vars.scss";
 
-@media (min-width: 376px) and (max-width: 768px) {
-  $width-site-maket: 768px;
-  $width-box-maket: 768px;
-  $width-site: 100%;
-  $height-menu: 74px;
-  $height-slide: 368px;
-}
-@media (max-width: 375px) {
-  $width-site-maket: 375px;
-  $width-box-maket: 375px;
-  $width-site: 100%;
-  $height-menu: 74px;
-  $height-slide: 363px;
-}
-@mixin media-tablet {
-  @media (min-width: 375px) and (max-width: 768px) {
-    @content;
-  }
-}
-@mixin media-mobile {
-  @media (max-width: 375px) {
-    @content;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;

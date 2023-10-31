@@ -13,6 +13,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
 }
 .wrapper .top {
   margin: 0 auto;
@@ -26,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 }
 .wrapper .top .header .menu {
   margin: 0 auto;
@@ -321,6 +324,7 @@ body {
   height: 776px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   background-color: #f7f7f7;
   position: relative;
 }
@@ -329,6 +333,7 @@ body {
   height: auto;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 .wrapper .top .header .header-content .header-content-slide__box__img {
   max-width: 597px;
@@ -341,6 +346,8 @@ body {
   width: 100%;
   height: auto;
   display: flex;
+  justify-content: center;
+  box-sizing: border-box;
   justify-content: space-between;
 }
 .wrapper .top .header .header-content .header-content-slide__button-box__button-left {
@@ -382,6 +389,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
   background-color: #ffffff;
 }
 .wrapper .top .main-box .item-blank {
@@ -405,6 +413,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 }
 .wrapper .top .main-box .item-blank__top__box__link {
   margin: 0 auto;
@@ -466,6 +475,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 }
 .wrapper .top .main-box .item-blank__bottom__box__filter-list {
   margin: 0 auto;
@@ -502,6 +512,7 @@ body {
   min-height: 47px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 }
 .wrapper .top .main-box .item-blank__bottom__box__button-box__button {
   margin: 0 auto;
@@ -510,6 +521,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
   border: 1px solid #ff6a6a;
 }
 .wrapper .top .main-box .item-blank__bottom__box__button-box__button__box {
@@ -517,6 +529,7 @@ body {
   height: 24px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
   align-items: flex-start;
 }
 .wrapper .top .main-box .item-blank__bottom__box__button-box__button__box__button-img {

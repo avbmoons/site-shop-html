@@ -13,8 +13,7 @@ body {
   margin: 0 auto;
   width: $width-site;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  @include flex-vertical();
   .top {
     margin: 0 auto;
     width: $width-site;
@@ -23,9 +22,7 @@ body {
       margin: 0 auto;
       width: $width-site;
       min-height: $height-menu + $height-header;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      @include flex-vertical();
       .menu {
         margin: 0 auto;
         width: $width-site;
@@ -225,10 +222,7 @@ body {
         width: $width-site;
         min-height: $height-header + 776px;
         background-color: $color-header;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        box-sizing: border-box;
+        @include flex-vertical();
         .header-content-box {
           margin: 0 auto;
           width: $width-box;
@@ -286,15 +280,13 @@ body {
           margin: 0 auto;
           width: $width-site;
           height: 776px;
-          display: flex;
-          justify-content: center;
+          @include flex-horizontal();
           background-color: #f7f7f7;
           position: relative;
           &__box {
             width: $width-box;
             height: auto;
-            display: flex;
-            justify-content: center;
+            @include flex-horizontal();
             &__img {
               max-width: 597px;
               height: auto;
@@ -306,7 +298,7 @@ body {
             left: 0;
             width: 100%;
             height: auto;
-            display: flex;
+            @include flex-horizontal();
             justify-content: space-between;
             &__button-left {
               width: 3%;
@@ -350,9 +342,7 @@ body {
       margin: 0 auto;
       width: $width-box;
       height: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      @include flex-vertical();
       background-color: $color-site;
       .item-blank {
         margin: -65px auto 0;
@@ -370,9 +360,7 @@ body {
             margin: 0 auto;
             width: 100%;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex-vertical();
             &__link {
               margin: 0 auto;
               padding-top: 65px;
@@ -431,26 +419,19 @@ body {
             margin: 0 auto;
             width: 100%;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            @include flex-vertical();
             &__filter-list {
               margin: 0 auto;
               width: 100%;
 
               &__items {
-                display: flex;
-                justify-content: center;
-                box-sizing: border-box;
+                @include flex-horizontal();
                 &__point {
                   list-style-type: none;
                   font-size: 14px;
                   font-weight: 400;
                   line-height: 17px;
-                  display: flex;
-                  justify-content: center;
-                  box-sizing: border-box;
-
+                  @include flex-horizontal();
                   &__link {
                     text-decoration: none;
                     color: $color-filter;
@@ -469,22 +450,17 @@ body {
               margin-top: 49px;
               width: 100%;
               min-height: 47px;
-              display: flex;
-              justify-content: center;
-
+              @include flex-horizontal();
               &__button {
                 margin: 0 auto;
                 min-width: 211px;
                 height: auto;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+                @include flex-vertical();
                 border: 1px solid #ff6a6a;
                 &__box {
                   width: 100%;
                   height: 24px;
-                  display: flex;
-                  justify-content: center;
+                  @include flex-horizontal();
                   align-items: flex-start;
 
                   &__button-img {

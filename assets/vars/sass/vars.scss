@@ -9,6 +9,7 @@ $height-menu: 75px;
 $height-slide: 764px;
 $height-header: 148px;
 $height-main-heading: 132px;
+$height-input: 44px;
 $color-site: #ffffff;
 $color-menu: #222222;
 $color-slide: #f1e4e6;
@@ -25,6 +26,11 @@ $num-position-top: ($num-size-h) * 0.5;
 $item-blank-h: 600px;
 $item-blank-top-h: ($item-blank-h) * 60%;
 $item-blank-bottom-h: ($item-blank-h) * 40%;
+$color-input-text: #000;
+$color-input-border: #a4a4a4;
+$color-input-placeholder: #b1b1b1;
+$color-input-label: #000;
+$color-form-heading: #222;
 
 ///////////////////////////
 @media (min-width: 376px) and (max-width: 768px) {
@@ -103,4 +109,9 @@ $item-blank-bottom-h: ($item-blank-h) * 40%;
   font-weight: 400;
   line-height: 17px;
   color: #9f9f9f;
+}
+@mixin text-font($fs, $fw, $lh) {
+  font-size: $fs;
+  font-weight: $fw;
+  line-height: $lh;
 }
